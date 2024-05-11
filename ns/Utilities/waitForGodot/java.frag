@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">waitForGodot</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgcGlwZUN1cnNvciA9IHBpcGVsaW5lLmdldEN1cnNvcigpOw0KLy8gaW5wdXQN
+CklEYXRhIGlucHV0ID0gSURhdGFGYWN0b3J5LmNyZWF0ZSgpOw0KSURhdGFDdXJzb3IgaW5wdXRD
+dXJzb3IgPSBpbnB1dC5nZXRDdXJzb3IoKTsNCklEYXRhVXRpbC5wdXQoIGlucHV0Q3Vyc29yLCAi
+a2V5IiwgSURhdGFVdGlsLmdldFN0cmluZyhwaXBlQ3Vyc29yLCAia2V5IikgKTsNCmlucHV0Q3Vy
+c29yLmRlc3Ryb3koKTsNCg0KLy8gb3V0cHV0DQpJRGF0YSAJb3V0cHV0ID0gSURhdGFGYWN0b3J5
+LmNyZWF0ZSgpOw0KdHJ5ew0KCVNlcnZpY2UuZG9UaHJlYWRJbnZva2UoICJVdGlsaXRpZXMiLCAi
+bm90aWZpZXIiLCBpbnB1dCApOw0KfWNhdGNoKCBFeGNlcHRpb24gZSl7fQ0KSURhdGFDdXJzb3Ig
+b3V0cHV0Q3Vyc29yID0gb3V0cHV0LmdldEN1cnNvcigpOw0KDQoJLy8gdmFsdWUNCglJRGF0YQl2
+YWx1ZSA9IElEYXRhVXRpbC5nZXRJRGF0YSggb3V0cHV0Q3Vyc29yLCAidmFsdWUiICk7DQoJaWYg
+KCB2YWx1ZSAhPSBudWxsKQ0KCXsNCgl9DQpvdXRwdXRDdXJzb3IuZGVzdHJveSgpOw==</value>
+</Values>

@@ -5,16 +5,8 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="TheoUtilities.waitNotify:waitForGodot" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="Utilities:waitForGodot" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
-<MAP MODE="INPUT">
-</MAP>
-
-<MAP MODE="OUTPUT">
-</MAP>
 </INVOKE>
 
 <INVOKE TIMEOUT="" SERVICE="pub.sync:wait" VALIDATE-IN="$none" VALIDATE-OUT="$none">
@@ -28,27 +20,41 @@
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
     <value name="field_name">waitInput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
         <value name="field_name">key</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
         <value name="field_name">time</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
         <value name="field_name">exclusive</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
@@ -58,8 +64,11 @@
           <value>no</value>
         </array>
         <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
     </array>
+    <value name="modifiable">true</value>
   </record>
 </Values>
 </MAPTARGET>
@@ -68,40 +77,51 @@
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
     </array>
+    <value name="modifiable">true</value>
   </record>
 </Values>
 </MAPSOURCE>
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" FIELD="/time;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/time;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
   <value name="xml">5</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
     <value name="field_name">time</value>
     <value name="field_type">string</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
   </record>
 </Values>
 </DATA>
 </MAPSET>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" FIELD="/exclusive;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/exclusive;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
   <value name="xml">yes</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
     <value name="field_name">exclusive</value>
     <value name="field_type">string</value>
     <value name="field_dim">0</value>
@@ -111,6 +131,8 @@
       <value>no</value>
     </array>
     <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
   </record>
 </Values>
 </DATA>
